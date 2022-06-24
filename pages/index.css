@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+       url("Inter-Black.woff?v=3.19") format("woff");
+}
+
 .body {
   background-color: #2A2C2F;
 }
@@ -258,6 +285,10 @@
   line-height: 1.5;
   color: #fff;
   list-style: none;
+}
+
+.intro__count {
+  font-weight: 400;
 }
 
 .photo-grid {
@@ -645,4 +676,13 @@ align-self: end;
     text-align: left;
     margin-top: 48px;
   }
+}
+
+.opacity-transition {
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.opacity-transition:hover {
+    opacity: 0.8;
 }

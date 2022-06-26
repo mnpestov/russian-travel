@@ -7,7 +7,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
-    aspect-ratio: 8 / 5;
+    -webkit-aspect-ratio: 8 / 5;
+    -moz-aspect-ratio: 8 / 5;
+    -ms-aspect-ratio: 8 / 5;
   }
   
   @media screen and (max-width: 1279px) {

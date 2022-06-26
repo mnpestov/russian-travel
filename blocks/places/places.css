@@ -8,14 +8,15 @@
   
   @media screen and (max-width: 1279px) {
     .places {
-      max-width: 76.875vw;
+      max-width: max(76.875vw, 928px);
     }
   }
   
   @media screen and (max-width: 1023px) {
     .places {
-      max-width: 720px;
+      max-width: max(90.625vw, 720px);
       gap: 73px;
+      margin-top: 88px;
     }
   }
   
@@ -24,5 +25,6 @@
       max-width: max(100vw, 320px);
       grid-template-rows: auto;
       gap: 50px;
+      margin-top: 64px;
     }
   }

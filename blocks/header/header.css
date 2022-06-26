@@ -21,5 +21,6 @@
     .header {
       max-width: max(90vw, 288px);
       box-sizing: border-box;
+      margin: 16px auto 0;
     }
   }
